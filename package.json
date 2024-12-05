@@ -2,7 +2,7 @@
   "dependencies": {
     "stocks.js": "^0.0.19"
   },
-  "type": "module",
+  "type":"commonjs",
   "name": "linkedin-stock-extension",
   "version": "1.0.0",
   "description": "Pairs stock performance with work history",
@@ -19,6 +19,5 @@
   "bugs": {
     "url": "https://github.com/JackWagner/linkedin-stock-extension/issues"
   },
-  "homepage": "https://github.com/JackWagner/linkedin-stock-extension#readme",
-  "type": "module"
+  "homepage": "https://github.com/JackWagner/linkedin-stock-extension#readme"
 }
