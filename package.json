@@ -1,8 +1,9 @@
 {
   "dependencies": {
-    "stocks.js": "^0.0.19"
+    "chart.js": "^4.4.7",
+    "stocks.js": "^0.0.7"
   },
-  "type":"commonjs",
+  "type": "commonjs",
   "name": "linkedin-stock-extension",
   "version": "1.0.0",
   "description": "Pairs stock performance with work history",
