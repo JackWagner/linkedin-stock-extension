@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "chart.js": "^4.4.7",
+    "parcel": "^2.13.2",
     "stocks.js": "^0.0.7"
   },
   "type": "commonjs",
@@ -9,7 +10,9 @@
   "description": "Pairs stock performance with work history",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "repository": {
     "type": "git",
